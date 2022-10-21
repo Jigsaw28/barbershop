@@ -1,0 +1,147 @@
+/*general styles*/
+:root {
+    --main-color:#303030;
+    --second-color:#555555;
+}
+body {
+    font-family: 'Open sans', sans-serif;
+}
+.link {
+    text-decoration: none;
+}
+header {
+    background-color: grey;
+}
+.list {
+    list-style: none;
+}
+.second-title {
+    font-family: 'Raleway';
+    line-height: calc(49/42);
+    letter-spacing: 0.05em;
+    font-size: 42px;
+}
+.button {
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: calc(16/12);
+}
+.header-list-link {
+    font-weight: 600;
+        font-size: 12px;
+        line-height: 1.2;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+}
+.header-list-link:hover {
+    color:#FF6C00;
+}
+.header-tel-link {
+    font-weight: 600;
+        font-size: 12px;
+        line-height: calc(16/12);
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+}
+.header-button {
+    color: #FFFFFF;
+}
+
+/*hero styles*/
+.hero-list-link {
+    font-weight: 600;
+        font-size: 11px;
+        line-height: calc(15/11);
+        letter-spacing: 0.2em;
+        color: var(--main-color);
+}
+.hero-list-link:hover, .hero-list-link:focus {
+    color: #FF6C00;
+}
+
+.hero-pre-title {
+    font-weight: 600;
+        font-size: 11px;
+        line-height: calc(15/11);
+        text-transform: uppercase;
+        color: rgba(157, 164, 189, 0.6);
+}
+.hero-title {
+    font-family: 'Raleway';
+    font-size: 72px;
+    line-height: calc(85/72);
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.hero-text {
+    line-height: calc(30/18);
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+    font-size: 18px;
+}
+/*About styles*/
+.about-pre-title {
+    font-weight: 600;
+    line-height: calc(15/11);
+    text-transform: uppercase;
+    color: var(--main-color);
+    font-size: 11px;
+}
+.about-title {
+    color: var(--main-color);
+}
+.about-after-title {
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: var(--second-color; )
+    line-height: calc(30/18);
+}
+.about-text {
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: var(--second-color;)
+    line-height: calc(26/15);
+}
+.about-button {
+    color: var(--main-color);
+}
+
+
+/*Services and Prices*/
+.services-pre-title {
+    font-weight: 600;
+    line-height: calc(15/11);
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+    font-size: 11px;
+}
+.services-title {
+    color: #FFFFFF;
+}
+.services-text {
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+    line-height: calc(30/15);;
+}
+.services-button {
+     color: #FFFFFF;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
